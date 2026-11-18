@@ -230,6 +230,8 @@ section{padding:120px 0}
 .proj-visual.v3{background:radial-gradient(circle at 70% 20%,rgba(217,180,95,.35),transparent 55%),linear-gradient(135deg,#070b10,#1d1708 60%,#3a2a0a)}
 .proj-visual.v3 .proj-name strong{color:#f3d58a;letter-spacing:.06em}
 .proj-tag.gate{background:rgba(217,180,95,.18);color:#9a7420}
+.proj-link{display:inline-flex;align-items:center;gap:6px;margin-top:20px;padding:11px 22px;border-radius:999px;background:linear-gradient(90deg,#b8923f,#f3d58a);color:#1a1408;font-weight:700;font-size:14px;transition:transform .2s,box-shadow .2s}
+.proj-link:hover{transform:translateY(-2px);box-shadow:0 10px 24px -10px rgba(184,146,63,.8)}
 .proj-body h3{font-size:21px;font-weight:900;line-height:1.5}
 .proj-body h3 .en{display:block;font-size:13px;font-weight:700;color:var(--ink-sub);letter-spacing:.06em;margin-bottom:2px}
 .proj-body p{color:var(--ink-sub);font-size:15px;margin-top:14px}
@@ -512,6 +514,7 @@ footer ul a:hover{color:#fff}
     <h3><span class="en">PROJECT GATE</span><span data-i18n="pg_h">3Dカードバトルゲーム</span></h3>
     <p data-i18n="pg_p1">炎・雷・水など多彩な属性のモンスターと魔法を組み合わせ、自分だけのデッキで戦う3Dカードバトルゲームです。パック開封やカード収集、デッキ編成を楽しめます。</p>
     <p data-i18n="pg_p2">スマートフォンやパソコンのブラウザだけで遊べるほか、Meta QuestなどでのVR／MRプレイにも対応。世界中のプレイヤーに向けて、多言語で開発を進めています。</p>
+            <a class="proj-link" href="https://oga-0923.github.io/project-gate/" target="_blank" rel="noopener" data-i18n="pg_play">今すぐプレイ →</a>
   </div>
 </article>
       </div>
@@ -664,6 +667,7 @@ en: {
   pg_h: "3D card battle game",
   pg_p1: "A 3D card battle game where you build your own deck from monsters and spells across many elements — fire, lightning, water and more. Open packs, collect cards and fine-tune your deck.",
   pg_p2: "Play right in the browser on your smartphone or PC, or in VR/MR on devices such as Meta Quest. We are developing it in multiple languages for players around the world.",
+  pg_play: "Play now →",
   appr_h2: "Before building a system, we get to know the site.",
   st1: "We listen to people on site to understand workflows and challenges.",
   st2: "We sort out the features you truly need and work out the best solution together.",
@@ -725,6 +729,7 @@ zh: {
   pg_h: "3D 卡牌对战游戏",
   pg_p1: "组合火、雷、水等多种属性的怪兽与魔法，用专属卡组展开对战的 3D 卡牌对战游戏。尽享开卡包、收集卡牌与组建卡组的乐趣。",
   pg_p2: "只需手机或电脑的浏览器即可游玩，还支持在 Meta Quest 等设备上进行 VR／MR 游玩。我们正以多语言面向全球玩家进行开发。",
+  pg_play: "立即游玩 →",
   appr_h2: "在开发系统之前，先了解现场。",
   st1: "倾听现场的声音，理解业务流程与课题。",
   st2: "梳理真正需要的功能，与您一起思考最佳解决方案。",
@@ -785,6 +790,7 @@ hi: {
   pg_h: "3D कार्ड बैटल गेम",
   pg_p1: "आग, बिजली, पानी जैसे कई तत्वों के राक्षसों और जादू को मिलाकर अपने खुद के डेक से लड़ने वाला 3D कार्ड बैटल गेम। पैक खोलने, कार्ड इकट्ठा करने और डेक बनाने का मज़ा लीजिए।",
   pg_p2: "इसे स्मार्टफ़ोन या PC के ब्राउज़र में सीधे खेला जा सकता है, और Meta Quest जैसे डिवाइस पर VR/MR में भी। हम इसे दुनिया भर के खिलाड़ियों के लिए कई भाषाओं में विकसित कर रहे हैं।",
+  pg_play: "अभी खेलें →",
   appr_h2: "सिस्टम बनाने से पहले, कार्यस्थल को समझना।",
   st1: "हम कार्यस्थल के लोगों की बात सुनकर कार्य-प्रवाह और चुनौतियों को समझते हैं।",
   st2: "वास्तव में ज़रूरी सुविधाओं को तय करके, आपके साथ मिलकर सबसे अच्छा समाधान सोचते हैं।",
@@ -844,6 +850,7 @@ es: {
   pg_h: "Juego de batallas de cartas en 3D",
   pg_p1: "Un juego de batallas de cartas en 3D en el que combinas monstruos y hechizos de muchos elementos —fuego, rayo, agua y más— para luchar con tu propio mazo. Abre sobres, colecciona cartas y arma tu mazo.",
   pg_p2: "Se juega directamente en el navegador del móvil o del PC, y también en VR/MR con dispositivos como Meta Quest. Lo desarrollamos en varios idiomas para jugadores de todo el mundo.",
+  pg_play: "Jugar ahora →",
   appr_h2: "Antes de crear un sistema, conocemos el terreno.",
   st1: "Escuchamos a las personas en el terreno para entender los flujos de trabajo y los problemas.",
   st2: "Definimos las funciones realmente necesarias y pensamos contigo la mejor solución.",
@@ -903,6 +910,7 @@ ar: {
   pg_h: "لعبة معارك بطاقات ثلاثية الأبعاد",
   pg_p1: "لعبة معارك بطاقات ثلاثية الأبعاد تجمع فيها وحوشًا وتعاويذ من عناصر متنوعة — النار والبرق والماء وغيرها — لتقاتل بمجموعتك الخاصة. افتح الحزم واجمع البطاقات وابنِ مجموعتك.",
   pg_p2: "تُلعب مباشرة في متصفح الهاتف أو الحاسوب، كما تدعم الواقع الافتراضي والمختلط على أجهزة مثل Meta Quest. نطوّرها بعدة لغات للاعبين حول العالم.",
+  pg_play: "العب الآن ←",
   appr_h2: "قبل بناء النظام، نتعرّف على الميدان.",
   st1: "نستمع إلى العاملين في الموقع لفهم سير العمل والتحديات.",
   st2: "نحدّد الوظائف الضرورية فعلًا، ونفكّر معك في الحل الأمثل.",
@@ -962,6 +970,7 @@ fr: {
   pg_h: "Jeu de combat de cartes en 3D",
   pg_p1: "Un jeu de combat de cartes en 3D où vous associez monstres et sorts de nombreux éléments — feu, foudre, eau et plus — pour combattre avec votre propre deck. Ouvrez des boosters, collectionnez les cartes et construisez votre deck.",
   pg_p2: "Il se joue directement dans le navigateur sur smartphone et PC, ainsi qu'en VR/MR sur des appareils comme le Meta Quest. Nous le développons en plusieurs langues pour les joueurs du monde entier.",
+  pg_play: "Jouer maintenant →",
   appr_h2: "Avant de créer un système, nous apprenons à connaître le terrain.",
   st1: "Nous écoutons le terrain pour comprendre les processus et les problèmes.",
   st2: "Nous identifions les fonctions vraiment utiles et cherchons avec vous la meilleure solution.",
@@ -1021,6 +1030,7 @@ bn: {
   pg_h: "3D কার্ড ব্যাটল গেম",
   pg_p1: "আগুন, বজ্র, পানি ইত্যাদি নানা উপাদানের দানব ও জাদু মিলিয়ে নিজের ডেক দিয়ে লড়াই করার একটি 3D কার্ড ব্যাটল গেম। প্যাক খোলা, কার্ড সংগ্রহ ও ডেক সাজানোর আনন্দ নিন।",
   pg_p2: "স্মার্টফোন বা কম্পিউটারের ব্রাউজারেই খেলা যায়, আর Meta Quest-এর মতো ডিভাইসে VR/MR-এও খেলা যায়। বিশ্বজুড়ে খেলোয়াড়দের জন্য আমরা এটি বহু ভাষায় তৈরি করছি।",
+  pg_play: "এখনই খেলুন →",
   appr_h2: "সিস্টেম তৈরির আগে, কর্মক্ষেত্রকে জানি।",
   st1: "কর্মক্ষেত্রের মানুষের কথা শুনে কাজের ধারা ও সমস্যা বুঝি।",
   st2: "সত্যিই প্রয়োজনীয় ফিচার নির্ধারণ করে, আপনার সাথে মিলে সেরা সমাধান ভাবি।",
@@ -1080,6 +1090,7 @@ pt: {
   pg_h: "Jogo de batalha de cartas em 3D",
   pg_p1: "Um jogo de batalha de cartas em 3D em que você combina monstros e magias de vários elementos — fogo, raio, água e mais — para lutar com seu próprio deck. Abra pacotes, colecione cartas e monte seu deck.",
   pg_p2: "Roda direto no navegador do celular ou do PC, e também em VR/MR em dispositivos como o Meta Quest. Estamos desenvolvendo em vários idiomas para jogadores do mundo todo.",
+  pg_play: "Jogar agora →",
   appr_h2: "Antes de criar o sistema, conhecemos o campo.",
   st1: "Ouvimos quem está em campo para entender o fluxo de trabalho e os desafios.",
   st2: "Definimos as funções realmente necessárias e pensamos juntos na melhor solução.",
@@ -1139,6 +1150,7 @@ ru: {
   pg_h: "3D-игра с карточными битвами",
   pg_p1: "3D-игра с карточными битвами: соберите собственную колоду из монстров и заклинаний разных стихий — огня, молнии, воды и других — и сражайтесь. Открывайте наборы, коллекционируйте карты и составляйте колоду.",
   pg_p2: "Играть можно прямо в браузере смартфона или ПК, а также в VR/MR на устройствах вроде Meta Quest. Мы разрабатываем игру на нескольких языках для игроков по всему миру.",
+  pg_play: "Играть сейчас →",
   appr_h2: "Прежде чем создавать систему, мы изучаем реальную работу.",
   st1: "Слушаем людей на местах, чтобы понять процессы и проблемы.",
   st2: "Определяем действительно нужные функции и вместе находим лучшее решение.",
@@ -1198,6 +1210,7 @@ id: {
   pg_h: "Game pertarungan kartu 3D",
   pg_p1: "Game pertarungan kartu 3D tempat Anda memadukan monster dan sihir dari berbagai elemen — api, petir, air, dan lainnya — untuk bertarung dengan dek Anda sendiri. Buka paket, kumpulkan kartu, dan susun dek Anda.",
   pg_p2: "Bisa dimainkan langsung di browser ponsel atau PC, juga dalam VR/MR di perangkat seperti Meta Quest. Kami mengembangkannya dalam berbagai bahasa untuk pemain di seluruh dunia.",
+  pg_play: "Main sekarang →",
   appr_h2: "Sebelum membuat sistem, kami memahami lapangan.",
   st1: "Kami mendengarkan orang-orang di lapangan untuk memahami alur kerja dan tantangannya.",
   st2: "Kami merumuskan fitur yang benar-benar dibutuhkan dan bersama Anda mencari solusi terbaik.",
