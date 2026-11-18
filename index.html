@@ -227,6 +227,9 @@ section{padding:120px 0}
   background:rgba(59,91,255,.08);color:var(--brand);margin-bottom:14px;
 }
 .proj-tag.rd{background:rgba(25,195,177,.12);color:#0e8f82}
+.proj-visual.v3{background:radial-gradient(circle at 70% 20%,rgba(217,180,95,.35),transparent 55%),linear-gradient(135deg,#070b10,#1d1708 60%,#3a2a0a)}
+.proj-visual.v3 .proj-name strong{color:#f3d58a;letter-spacing:.06em}
+.proj-tag.gate{background:rgba(217,180,95,.18);color:#9a7420}
 .proj-body h3{font-size:21px;font-weight:900;line-height:1.5}
 .proj-body h3 .en{display:block;font-size:13px;font-weight:700;color:var(--ink-sub);letter-spacing:.06em;margin-bottom:2px}
 .proj-body p{color:var(--ink-sub);font-size:15px;margin-top:14px}
@@ -497,6 +500,20 @@ footer ul a:hover{color:#fff}
             <p data-i18n="p2_p2">現場でのヒアリングを出発点に、画像認識AIと設備制御の組み合わせを検証しています。</p>
           </div>
         </article>
+<article class="proj reveal">
+  <div class="proj-visual v3">
+    <div class="proj-name">
+      <div class="ico"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#f3d58a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="4" width="11" height="16" rx="2" transform="rotate(8 12.5 12)"/><rect x="5" y="4" width="11" height="16" rx="2" transform="rotate(-8 10.5 12)"/><path d="M10.5 9.5l1.5 2.5-1.5 2.5L9 12z"/></svg></div>
+      <strong>PROJECT GATE</strong>
+    </div>
+  </div>
+  <div class="proj-body">
+    <span class="proj-tag gate" data-i18n="pg_tag">自社プロダクト</span>
+    <h3><span class="en">PROJECT GATE</span><span data-i18n="pg_h">3Dカードバトルゲーム</span></h3>
+    <p data-i18n="pg_p1">炎・雷・水など多彩な属性のモンスターと魔法を組み合わせ、自分だけのデッキで戦う3Dカードバトルゲームです。パック開封やカード収集、デッキ編成を楽しめます。</p>
+    <p data-i18n="pg_p2">スマートフォンやパソコンのブラウザだけで遊べるほか、Meta QuestなどでのVR／MRプレイにも対応。世界中のプレイヤーに向けて、多言語で開発を進めています。</p>
+  </div>
+</article>
       </div>
     </div>
   </section>
@@ -643,6 +660,10 @@ en: {
   p2_h: "AI dust detection system",
   p2_p1: "An R&amp;D project that detects dust at demolition sites using image recognition, aiming to automate water spraying.",
   p2_p2: "Starting from interviews on site, we are testing how image-recognition AI can be combined with equipment control.",
+  pg_tag: "In-house product",
+  pg_h: "3D card battle game",
+  pg_p1: "A 3D card battle game where you build your own deck from monsters and spells across many elements — fire, lightning, water and more. Open packs, collect cards and fine-tune your deck.",
+  pg_p2: "Play right in the browser on your smartphone or PC, or in VR/MR on devices such as Meta Quest. We are developing it in multiple languages for players around the world.",
   appr_h2: "Before building a system, we get to know the site.",
   st1: "We listen to people on site to understand workflows and challenges.",
   st2: "We sort out the features you truly need and work out the best solution together.",
@@ -700,6 +721,10 @@ zh: {
   p2_h: "AI 粉尘检测系统",
   p2_p1: "通过图像识别检测拆除现场的粉尘，旨在实现洒水作业自动化的研发项目。",
   p2_p2: "以现场访谈为起点，验证图像识别 AI 与设备控制的结合。",
+  pg_tag: "自研产品",
+  pg_h: "3D 卡牌对战游戏",
+  pg_p1: "组合火、雷、水等多种属性的怪兽与魔法，用专属卡组展开对战的 3D 卡牌对战游戏。尽享开卡包、收集卡牌与组建卡组的乐趣。",
+  pg_p2: "只需手机或电脑的浏览器即可游玩，还支持在 Meta Quest 等设备上进行 VR／MR 游玩。我们正以多语言面向全球玩家进行开发。",
   appr_h2: "在开发系统之前，先了解现场。",
   st1: "倾听现场的声音，理解业务流程与课题。",
   st2: "梳理真正需要的功能，与您一起思考最佳解决方案。",
@@ -756,6 +781,10 @@ hi: {
   p2_h: "AI धूल पहचान प्रणाली",
   p2_p1: "यह एक R&amp;D परियोजना है जो इमेज रिकग्निशन से डिमोलिशन साइट पर धूल का पता लगाकर पानी छिड़काव को स्वचालित करने का लक्ष्य रखती है।",
   p2_p2: "साइट पर बातचीत से शुरुआत करके, हम इमेज रिकग्निशन AI और उपकरण नियंत्रण के संयोजन का परीक्षण कर रहे हैं।",
+  pg_tag: "हमारा अपना उत्पाद",
+  pg_h: "3D कार्ड बैटल गेम",
+  pg_p1: "आग, बिजली, पानी जैसे कई तत्वों के राक्षसों और जादू को मिलाकर अपने खुद के डेक से लड़ने वाला 3D कार्ड बैटल गेम। पैक खोलने, कार्ड इकट्ठा करने और डेक बनाने का मज़ा लीजिए।",
+  pg_p2: "इसे स्मार्टफ़ोन या PC के ब्राउज़र में सीधे खेला जा सकता है, और Meta Quest जैसे डिवाइस पर VR/MR में भी। हम इसे दुनिया भर के खिलाड़ियों के लिए कई भाषाओं में विकसित कर रहे हैं।",
   appr_h2: "सिस्टम बनाने से पहले, कार्यस्थल को समझना।",
   st1: "हम कार्यस्थल के लोगों की बात सुनकर कार्य-प्रवाह और चुनौतियों को समझते हैं।",
   st2: "वास्तव में ज़रूरी सुविधाओं को तय करके, आपके साथ मिलकर सबसे अच्छा समाधान सोचते हैं।",
@@ -811,6 +840,10 @@ es: {
   p2_h: "Sistema de detección de polvo con IA",
   p2_p1: "Proyecto de I+D que detecta el polvo en obras de demolición mediante reconocimiento de imágenes, con el objetivo de automatizar el riego.",
   p2_p2: "Partiendo de entrevistas en obra, estamos validando la combinación de IA de reconocimiento de imágenes y control de equipos.",
+  pg_tag: "Producto propio",
+  pg_h: "Juego de batallas de cartas en 3D",
+  pg_p1: "Un juego de batallas de cartas en 3D en el que combinas monstruos y hechizos de muchos elementos —fuego, rayo, agua y más— para luchar con tu propio mazo. Abre sobres, colecciona cartas y arma tu mazo.",
+  pg_p2: "Se juega directamente en el navegador del móvil o del PC, y también en VR/MR con dispositivos como Meta Quest. Lo desarrollamos en varios idiomas para jugadores de todo el mundo.",
   appr_h2: "Antes de crear un sistema, conocemos el terreno.",
   st1: "Escuchamos a las personas en el terreno para entender los flujos de trabajo y los problemas.",
   st2: "Definimos las funciones realmente necesarias y pensamos contigo la mejor solución.",
@@ -866,6 +899,10 @@ ar: {
   p2_h: "نظام لرصد الغبار بالذكاء الاصطناعي",
   p2_p1: "مشروع بحث وتطوير يرصد الغبار في مواقع الهدم عبر التعرّف على الصور، بهدف أتمتة عمليات الرشّ بالماء.",
   p2_p2: "انطلاقًا من مقابلات ميدانية، نختبر الجمع بين ذكاء اصطناعي للتعرّف على الصور والتحكم في المعدات.",
+  pg_tag: "منتج خاص بنا",
+  pg_h: "لعبة معارك بطاقات ثلاثية الأبعاد",
+  pg_p1: "لعبة معارك بطاقات ثلاثية الأبعاد تجمع فيها وحوشًا وتعاويذ من عناصر متنوعة — النار والبرق والماء وغيرها — لتقاتل بمجموعتك الخاصة. افتح الحزم واجمع البطاقات وابنِ مجموعتك.",
+  pg_p2: "تُلعب مباشرة في متصفح الهاتف أو الحاسوب، كما تدعم الواقع الافتراضي والمختلط على أجهزة مثل Meta Quest. نطوّرها بعدة لغات للاعبين حول العالم.",
   appr_h2: "قبل بناء النظام، نتعرّف على الميدان.",
   st1: "نستمع إلى العاملين في الموقع لفهم سير العمل والتحديات.",
   st2: "نحدّد الوظائف الضرورية فعلًا، ونفكّر معك في الحل الأمثل.",
@@ -921,6 +958,10 @@ fr: {
   p2_h: "Système de détection de poussière par IA",
   p2_p1: "Un projet de R&amp;D qui détecte la poussière sur les chantiers de démolition par reconnaissance d'images, afin d'automatiser l'arrosage.",
   p2_p2: "À partir d'entretiens sur le terrain, nous testons l'association d'une IA de reconnaissance d'images et du pilotage d'équipements.",
+  pg_tag: "Produit maison",
+  pg_h: "Jeu de combat de cartes en 3D",
+  pg_p1: "Un jeu de combat de cartes en 3D où vous associez monstres et sorts de nombreux éléments — feu, foudre, eau et plus — pour combattre avec votre propre deck. Ouvrez des boosters, collectionnez les cartes et construisez votre deck.",
+  pg_p2: "Il se joue directement dans le navigateur sur smartphone et PC, ainsi qu'en VR/MR sur des appareils comme le Meta Quest. Nous le développons en plusieurs langues pour les joueurs du monde entier.",
   appr_h2: "Avant de créer un système, nous apprenons à connaître le terrain.",
   st1: "Nous écoutons le terrain pour comprendre les processus et les problèmes.",
   st2: "Nous identifions les fonctions vraiment utiles et cherchons avec vous la meilleure solution.",
@@ -976,6 +1017,10 @@ bn: {
   p2_h: "AI ধুলা শনাক্তকরণ সিস্টেম",
   p2_p1: "ইমেজ রিকগনিশনের মাধ্যমে ভবন ভাঙার সাইটের ধুলা শনাক্ত করে পানি ছিটানোর কাজ স্বয়ংক্রিয় করার লক্ষ্যে একটি গবেষণা প্রকল্প।",
   p2_p2: "সাইটে সাক্ষাৎকার থেকে শুরু করে, আমরা ইমেজ রিকগনিশন AI ও যন্ত্রপাতি নিয়ন্ত্রণের সমন্বয় যাচাই করছি।",
+  pg_tag: "আমাদের নিজস্ব পণ্য",
+  pg_h: "3D কার্ড ব্যাটল গেম",
+  pg_p1: "আগুন, বজ্র, পানি ইত্যাদি নানা উপাদানের দানব ও জাদু মিলিয়ে নিজের ডেক দিয়ে লড়াই করার একটি 3D কার্ড ব্যাটল গেম। প্যাক খোলা, কার্ড সংগ্রহ ও ডেক সাজানোর আনন্দ নিন।",
+  pg_p2: "স্মার্টফোন বা কম্পিউটারের ব্রাউজারেই খেলা যায়, আর Meta Quest-এর মতো ডিভাইসে VR/MR-এও খেলা যায়। বিশ্বজুড়ে খেলোয়াড়দের জন্য আমরা এটি বহু ভাষায় তৈরি করছি।",
   appr_h2: "সিস্টেম তৈরির আগে, কর্মক্ষেত্রকে জানি।",
   st1: "কর্মক্ষেত্রের মানুষের কথা শুনে কাজের ধারা ও সমস্যা বুঝি।",
   st2: "সত্যিই প্রয়োজনীয় ফিচার নির্ধারণ করে, আপনার সাথে মিলে সেরা সমাধান ভাবি।",
@@ -1031,6 +1076,10 @@ pt: {
   p2_h: "Sistema de detecção de poeira com IA",
   p2_p1: "Projeto de P&amp;D que detecta poeira em obras de demolição por reconhecimento de imagem, com o objetivo de automatizar a aspersão de água.",
   p2_p2: "A partir de entrevistas em campo, estamos validando a combinação de IA de reconhecimento de imagem com controle de equipamentos.",
+  pg_tag: "Produto próprio",
+  pg_h: "Jogo de batalha de cartas em 3D",
+  pg_p1: "Um jogo de batalha de cartas em 3D em que você combina monstros e magias de vários elementos — fogo, raio, água e mais — para lutar com seu próprio deck. Abra pacotes, colecione cartas e monte seu deck.",
+  pg_p2: "Roda direto no navegador do celular ou do PC, e também em VR/MR em dispositivos como o Meta Quest. Estamos desenvolvendo em vários idiomas para jogadores do mundo todo.",
   appr_h2: "Antes de criar o sistema, conhecemos o campo.",
   st1: "Ouvimos quem está em campo para entender o fluxo de trabalho e os desafios.",
   st2: "Definimos as funções realmente necessárias e pensamos juntos na melhor solução.",
@@ -1086,6 +1135,10 @@ ru: {
   p2_h: "Система обнаружения пыли на основе ИИ",
   p2_p1: "Исследовательский проект, который с помощью распознавания изображений обнаруживает пыль на площадках демонтажа, чтобы автоматизировать орошение водой.",
   p2_p2: "Начав с опроса работников на объектах, мы проверяем сочетание ИИ для распознавания изображений и управления оборудованием.",
+  pg_tag: "Собственный продукт",
+  pg_h: "3D-игра с карточными битвами",
+  pg_p1: "3D-игра с карточными битвами: соберите собственную колоду из монстров и заклинаний разных стихий — огня, молнии, воды и других — и сражайтесь. Открывайте наборы, коллекционируйте карты и составляйте колоду.",
+  pg_p2: "Играть можно прямо в браузере смартфона или ПК, а также в VR/MR на устройствах вроде Meta Quest. Мы разрабатываем игру на нескольких языках для игроков по всему миру.",
   appr_h2: "Прежде чем создавать систему, мы изучаем реальную работу.",
   st1: "Слушаем людей на местах, чтобы понять процессы и проблемы.",
   st2: "Определяем действительно нужные функции и вместе находим лучшее решение.",
@@ -1141,6 +1194,10 @@ id: {
   p2_h: "Sistem deteksi debu berbasis AI",
   p2_p1: "Proyek riset yang mendeteksi debu di lokasi pembongkaran dengan pengenalan gambar, untuk mengotomatiskan penyiraman air.",
   p2_p2: "Berawal dari wawancara di lapangan, kami menguji kombinasi AI pengenalan gambar dengan kontrol peralatan.",
+  pg_tag: "Produk sendiri",
+  pg_h: "Game pertarungan kartu 3D",
+  pg_p1: "Game pertarungan kartu 3D tempat Anda memadukan monster dan sihir dari berbagai elemen — api, petir, air, dan lainnya — untuk bertarung dengan dek Anda sendiri. Buka paket, kumpulkan kartu, dan susun dek Anda.",
+  pg_p2: "Bisa dimainkan langsung di browser ponsel atau PC, juga dalam VR/MR di perangkat seperti Meta Quest. Kami mengembangkannya dalam berbagai bahasa untuk pemain di seluruh dunia.",
   appr_h2: "Sebelum membuat sistem, kami memahami lapangan.",
   st1: "Kami mendengarkan orang-orang di lapangan untuk memahami alur kerja dan tantangannya.",
   st2: "Kami merumuskan fitur yang benar-benar dibutuhkan dan bersama Anda mencari solusi terbaik.",
